@@ -1,0 +1,51 @@
+Sigla,Stato,Regione,PenaDiMorte,AnnoAbolizione
+AL,Alabama,SE,1,
+AK,Alaska,NW,0,1973
+AZ,Arizona,SW,1,
+AR,Arkansas,SE,1,
+CA,California,SW,1,
+CO,Colorado,C,1,
+CT,Connecticut,NE,0,2012
+DE,Delaware,NE,1,
+FL,Florida,SE,1,
+GA,Georgia,SE,1,
+HI,Hawaii,S,0,1973
+ID,Idaho,NW,1,
+IL,Illinois,NE,0,2011
+IN,Indiana,NE,1,
+IA,Iowa,C,0,1965
+KS,Kansas,C,1,
+KY,Kentucky,SE,1,
+LA,Louisiana,SE,1,
+ME,Maine,NE,0,1887
+MD,Maryland,NE,0,2013
+MA,Massachusetts,NE,0,1984
+MI,Michigan,NE,0,1846
+MN,Minnesota,N,0,1911
+MS,Mississippi,SE,1,
+MO,Missouri,C,1,
+MT,Montana,NW,1,
+NE,Nebraska,C,1,
+NV,Nevada,NW,1,
+NH,New Hampshire,NE,1,
+NJ,New Jersey,NE,0,2007
+NM,New Mexico,SW,0,2009
+NY,New York,NE,0,2007
+NC,North Carolina,SE,1,
+ND,North Dakota,N,0,1973
+OH,Ohio,SE,1,
+OK,Oklahoma,S,1,
+OR,Oregon,NW,1,
+PA,Pennsylvania,NE,1,
+RI,Rhode Island,NE,0,1984
+SC,South Carolina,SE,1,
+SD,South Dakota,C,1,
+TN,Tennessee,SE,1,
+TX,Texas,S,1,
+UT,Utah,C,1,
+VT,Vermont,NE,0,1964
+VA,Virginia,NE,1,
+WA,Washington,NW,1,
+WV,West Virginia,NE,0,1965
+WI,Wisconsin,NE,0,1853
+WY,Wyoming,C,1,

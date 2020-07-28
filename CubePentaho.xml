@@ -1,0 +1,34 @@
+<Schema name="cubePentaho">
+  <Cube name="cube" visible="true" cache="true" enabled="true">
+    <Table name="fact_Murders" alias="">
+    </Table>
+    <Dimension type="StandardDimension" visible="true" foreignKey="ID_Year" name="Years">
+      <Hierarchy name="anno" visible="true" hasAll="true" primaryKey="ID_Year">
+        <Table name="dim_Year" alias="">
+        </Table>
+        <Level name="anno" visible="true" table="dim_Year" column="Year" type="Numeric" uniqueMembers="true">
+        </Level>
+        <Level name="Quarter" visible="true" table="dim_Year" column="Quarter" type="Numeric" uniqueMembers="false">
+        </Level>
+        <Level name="Month" visible="true" table="dim_Year" column="Month" type="Numeric" uniqueMembers="false">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" foreignKey="ID_State" name="State">
+      <Hierarchy name="States" visible="true" hasAll="true" primaryKey="ID_State">
+        <Table name="dim_State" alias="">
+        </Table>
+        <Level name="DeathPenalty" visible="true" table="dim_State" column="DeathPenalty" type="Boolean" uniqueMembers="true">
+        </Level>
+        <Level name="Region " visible="true" table="dim_State" column="Region" type="String" uniqueMembers="false">
+        </Level>
+        <Level name="State" visible="true" table="dim_State" column="State" type="String" uniqueMembers="false">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Measure name="Sum Murders" column="NumberMurders" datatype="Numeric" aggregator="sum" visible="true">
+    </Measure>
+    <Measure name="Sum Sentences" column="NumberSentences" datatype="Numeric" aggregator="sum" visible="true">
+    </Measure>
+  </Cube>
+</Schema>

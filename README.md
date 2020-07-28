@@ -1,1 +1,7 @@
-# Death-Penalty-and-murders-USA-2008-2014
+# Data Warehouse about Death Penalty and murders in USA since 2008-2014
+
+This study was born as a university project and compares the number of murders in America from 2008 to 2014 by correlating it to the number of death sentences inflicted in the same years. The study was born to see if there is actually a correlation between the number of murders and the number of death penalties imposed, this to see if the death penalty is a deterrent in the states where it is applied.
+a data warehouse has been developed to allow historical queries. Two initial datasets have been considered, the first contains all the murders made in the United States in an interval of about 40 - 50 years, the second instead all the death sentences carried out in the 2000s in America. A phase of cleaning and extraction of the data has been made and therefore for both datasets only the data going from 2008 to 2014 have been considered, subsequently a common ER scheme has been defined for both and a phase of pruning has been carried out, finally through jpivot the corresponding graphs have been generated.
+
+![Image description]()
+![alt tag](https://drive.google.com/open?id=1FsGdjSlqBncNu4njGExVmR-gEKSDWGKa "Description goes here")
